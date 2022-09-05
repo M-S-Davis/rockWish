@@ -1,3 +1,6 @@
 npx tailwindcss -i ./public/input.css -o ./public/output.css --watch
 
 postcss public/input.css -o public/output.css
+
+
+-w tailwind.config.js -w output.css

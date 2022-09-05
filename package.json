@@ -5,9 +5,9 @@
 	"main": "server.js",
 	"scripts": {
 		"start": "nodemon server.js",
-		"sync": "browser-sync start --proxy \"index.ejs\" --files \"**/*\"",
-		"dev": "npx tailwindcss -i ./public/input.css -o ./public/output.css --watch",
-		"watch:dev": "nodemon npm run dev -w tailwind.config.js -w output.css",
+		"sync": "browser-sync start nodemon npx tailwindcss -i ./public/input.css -o ./public/output.css --watch",
+		"dev": "postcss ./public/input.css -o ./public/output.css --watch",
+		"watch:dev": "npm run start && npm run dev",
 		"watch": "run-p watch:dev sync",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
