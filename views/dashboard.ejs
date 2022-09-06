@@ -9,23 +9,46 @@
     <title>Dashboard</title>
     <title>Your Dashboard</title>
   </head>
-  <body>
-    <!-- Navbar -->
-    <%- include('./partials/navbar') %>
 
-      <h1
-        class="mb-4 text-4xl  mt-5 text-center font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-        Welcome back, <span class="text-blue-600 dark:text-blue-500"><%= user.userName %></span></h1>
-      <p class="mb-6 text-lg  mt-8 font-normal text-gray-500 lg:text-xl px-5 sm:px-16 xl:px-48 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus deserunt impedit veniam. Odit maxime veniam voluptatem voluptate aliquam dolores, reiciendis ipsum laboriosam commodi optio quia ab itaque ad debitis ducimus!</p>
-      <div class="justify-center items-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-        <a href="/gear"
-          class="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">Add Gear
-        </a>
+  <body >
+    
+<!-- Navbar -->
+      <div class="fixed w-full">
+       <%- include('./partials/navbar') %> 
       </div>
-   
+        
+     
+    <!-- todo: Put a nice welcome to the user name -->
+
+    <main class="container">
+      <div class="bg-guitar bg-cover bg-no-repeat w-screen h-screen blur-[5px] -z-10 absolute"></div>
+      <div class="pt-32 w-full h-full flex flex-col justify-between">
+        <div class="ml-20">
+          <h1 class="text-4xl text-white font-long  italic">Your Dashboard</h1>
+      <ul class="text-white text-2xl mt-3 pt-5 border-t-4 border-white">
+        <!-- Display User Wishlist Button -->
+        <li><a href="/dashboard/privateWishlist">My Wishlist</a></li>
+        <!-- Display Public Wishlist Button -->
+        <li><a href="/dashboard/publicWishlist">Public Wishlists</a></li>
+        <!-- Display Add Gear Button -->
+        <li><a href="/gear">Add Gear</a></li>
+        <!-- Logout Button -->
+      </ul>
+        </div>
+       
+
+
       <!-- Footer -->
-      <%- include('./partials/footer') %>
-    </main>
+      <div class="self-end bg-inherit relative mt-4 text-sm blur-[.02em] cursor-default">
+        <%- include('./partials/footer') %>
+      </div>
+      
+      </div>
+    
+    </main> 
+      
+    
+      
     <script src="/js/main.js"></script>
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
   </body>
