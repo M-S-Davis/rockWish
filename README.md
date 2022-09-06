@@ -31,3 +31,11 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 - Sales/trades for users. Include a list of "owned" gear, which can be toggeled to display for other users looking to buy/trade gear.
 - Dark mode toggle.
 - Reputation, 5 star trade ranking.
+
+A team project built by :
+
+https://github.com/M-S-Davis <br>
+https://github.com/stacksantos <br>
+https://github.com/Tehuberjohn <br>
+https://github.com/DavidHenry-Dev <br>
+https://github.com/NickRoccodev11

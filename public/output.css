@@ -597,6 +597,7 @@ video {
   position: relative;
 }
 
+
 .-z-10 {
   z-index: -10;
 }
@@ -628,6 +629,12 @@ video {
 
 .mb-16 {
   margin-bottom: 4rem;
+
+}
+
+.mt-4 {
+  margin-top: 1rem;
+
 }
 
 .mt-5 {
@@ -642,9 +649,11 @@ video {
   margin-right: 1rem;
 }
 
+
 .mt-3 {
   margin-top: 0.75rem;
 }
+
 
 .block {
   display: block;
@@ -664,6 +673,10 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-3\/4 {
+  height: 75%;
 }
 
 .h-full {
@@ -706,6 +719,10 @@ video {
 
 .w-2\/3 {
   width: 66.666667%;
+
+.w-4\/5 {
+  width: 80%;
+
 }
 
 .w-5\/6 {
@@ -802,8 +819,13 @@ video {
   justify-content: space-between;
 }
 
+
 .self-end {
   align-self: flex-end;
+
+.justify-evenly {
+  justify-content: space-evenly;
+
 }
 
 .rounded-\[50px\] {
@@ -830,6 +852,7 @@ video {
   border-top-width: 1px;
 }
 
+
 .border-t-4 {
   border-top-width: 4px;
 }
@@ -847,6 +870,7 @@ video {
 .bg-inherit {
   background-color: inherit;
 }
+
 
 .bg-\[rgb\(0\2c 0\2c 0\2c \.8\)\] {
   background-color: rgb(0,0,0,.8);
@@ -960,6 +984,7 @@ video {
   font-family: Love Light, cursive;
 }
 
+
 .font-krona {
   font-family: Krona One, sans-serif;
 }
@@ -972,11 +997,29 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+
+.font-long {
+  font-family: Long Cang, cursive;
+
+}
+
+.font-krona {
+  font-family: Krona One, sans-serif;
 }
 
 .text-9xl {
   font-size: 8rem;
   line-height: 1;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-xl {
@@ -989,9 +1032,15 @@ video {
   line-height: 1.75rem;
 }
 
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+
 }
 
 .font-bold {
@@ -1252,4 +1301,9 @@ video {
   .lg\:p-4 {
     padding: 1rem;
   }
+
 }
+
+}
+
+

@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/output.css" rel="stylesheet" />
-    <title>Your Wishlist</title>
+    <title>Gear you want</title>
   </head>
   <body>
     <!-- Navbar -->
     <%- include('./partials/navbar') %>
 
-    <h1 class="text-center mt-4">Yes, this is the Personal Wishlist page.</h1>
-    
+    <h1
+      class="mb-4 text-4xl text-center mt-5 font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+      Private Wishlist
+    </h1>
+
       <div class="container mt-5 mx-auto px-2">
         <div class="lg:grid grid-cols-2 md:flex"">
                   <% gears.forEach( el=> { %>
