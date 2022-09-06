@@ -34,8 +34,8 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 
 A team project built by :
 
-https://github.com/M-S-Davis
-https://github.com/stacksantos
-https://github.com/Tehuberjohn
-https://github.com/DavidHenry-Dev
+https://github.com/M-S-Davis <br>
+https://github.com/stacksantos <br>
+https://github.com/Tehuberjohn <br>
+https://github.com/DavidHenry-Dev <br>
 https://github.com/NickRoccodev11
